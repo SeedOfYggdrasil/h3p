@@ -51,7 +51,6 @@ body {
     text-align: center;
     width: 100%;
     top: 5.3vh;
-
     z-index: -1;
     opacity: 90%;
 }
@@ -60,14 +59,12 @@ body {
     position: relative;
     padding: 5px;
     margin: 10px;
-    width: 100%;
-    min-width: 100vw;
     display: flex;
     flex-wrap: nowrap;
     font-family: "Archivo Black", "Archivo", sans-serif;
     color: rgb(232, 232, 232);
     background: rgba(177, 0, 74, 0.668);
-    font-size: 14px;
+    font-size: 1em;
     letter-spacing: 18px;
     animation: neon 1.5s ease-in-out infinite;
 }
@@ -165,32 +162,29 @@ body {
     left: 0;
 }
 
-.navbar .social-icons {
-    position: absolute;
-    left: 60vw;
-    top: 65vh;
+.social-icons {
     display: flex;
-    flex-direction: column;
-    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 65vh;
+    left: 5;
     z-index: 10;
 }
 
-.navbar .social-icons a {
+.social-icons a {
+    display: flex;
     color: white;
     text-decoration: none;
-    font-size: 32px;
-    color: rgb(255, 255, 255);
+    font-size: 2em;
     background: #00244d;
     border: solid 2px magenta;
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+    padding: 7px;
     transition: color 0.3s ease, background 0.3s ease;
 }
 
-.navbar .social-icons a:hover {
+.social-icons a:hover {
     color: rgb(0, 252, 0);
     background: rgb(212, 112, 255);
 }
@@ -199,9 +193,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
-    line-height: 1.1;
-    left: 10vw;
+    line-height: 1.15;
     height: 100%;
     width: 100%;
 }
@@ -213,11 +205,10 @@ body {
 }
 
 .content .title {
-    position: relative;
     display: flex;
-    font-size: 8em;
+    font-size: 3em;
     left: 0;
-    font-weight: 400;
+    font-weight: 300;
     width: 100%;
     font-family: "Archivo Black", "Archivo", sans-serif;
     color: rgb(0, 0, 0);
@@ -232,9 +223,8 @@ body {
 }
 
 .content .subtitle {
-    position: relative;
     display: flex;
-    font-size: 10em;
+    font-size: 5em;
     font-weight: 500;
     color: rgb(255, 255, 255);
     font-family: "Archivo Black", "Archivo", sans-serif;
