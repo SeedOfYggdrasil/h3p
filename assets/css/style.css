@@ -97,18 +97,6 @@ html, body {
     color: black;
 }
 
-/* Banner */
-.banner {
-    text-align: center;
-    margin-top: 20px;
-    word-wrap: np-wrap;
-    width: 100%;
-}
-
-.banner p {
-    font-size: 0.5em;
-}
-
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .navbar {
@@ -133,8 +121,5 @@ html, body {
     }
     .content .subtitle {
         font-size: 7vw;
-    }
-    .banner p {
-        letter-spacing: 2px;
     }
 }

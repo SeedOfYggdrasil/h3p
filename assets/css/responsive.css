@@ -146,33 +146,40 @@
 
 /* Smaller mobile screens */
 @media (max-width: 640px) {
-    .banner {
-        top: 5%;
-        padding: 5px;
-    }
+.h3p-logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+    padding: 2px;
+}
 
-    .banner p {
-        letter-spacing: 4px;
-        padding: 2px;
-        margin: 2px;
-        font-size: 10px;
-    }
+.h3p-logo img {
+    max-width: 200px;
+    height: auto;
+}
+.site-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    letter-spacing: 1em;
+    z-index: 5;
+}
 
-    .logo {
-        padding: 5px;
-        margin: 5px auto;
-    }
-
-    .logo img {
-        width: 125px;
-        max-width: 125px;
-    }
 
     .navbar {
         top: 10%;
         z-index: 1;
         padding: 0px 10px;
-        width: 80%;
+        max-width: 80vw;
+        width: 100%;
         margin: 0px 10px;
     }
 
@@ -184,8 +191,8 @@
     }
 
     .navbar .menu ul {
-        margin: 0;
-        padding: 0;
+        margin: 2px;
+        padding: 2px;
     }
 
     .social-icons {
